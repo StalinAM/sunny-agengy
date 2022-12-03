@@ -26,9 +26,11 @@ Users should be able to:
 ### Screenshot
 
 Mobile Version
-![](./screenshot.jpg)
+![](./assets/images/readme/screenshot1.png.jpg)
+![](./assets/images/readme/screenshot2.png.jpg)
 
 Desktop Version
+![](./assets/images/readme/screenshot3.png.jpg)
 
 ### Links
 
@@ -44,6 +46,7 @@ Desktop Version
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- JavaScript
 
 ## Author
 

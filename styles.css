@@ -101,6 +101,7 @@ header {
 .main-about {
   background: url(./assets/images/mobile/image-header.jpg) center bottom/cover
     no-repeat;
+  width: 100%;
 }
 .main-about h1 {
   font-size: 2.5rem;
@@ -273,6 +274,14 @@ footer ul li a {
 .show {
   display: none;
 }
+@media screen and (min-width: 62rem) {
+  .main-about h1 {
+    font-size: 4.5rem;
+  }
+  .details-container p {
+    font-size: 1.4rem;
+  }
+}
 @media screen and (min-width: 48rem) {
   #openMenu,
   .triangle {
@@ -298,6 +307,9 @@ footer ul li a {
   }
   .menu ul li a {
     color: var(--White);
+  }
+  .menu ul li a:hover {
+    border-bottom: 5px solid var(--bottom);
   }
   .menu ul li:last-child a {
     background-color: var(--White);
@@ -333,10 +345,11 @@ footer ul li a {
   .section-about article:nth-child(2) img,
   .section-about article:nth-child(3) img {
     height: 100%;
+    object-fit: cover;
   }
   .section-about article:nth-child(2) .details-container,
   .section-about article:nth-child(3) .details-container {
-    padding: 10rem 6rem 10rem 10rem;
+    padding: 20% 10% 20% 20%;
     margin: 0;
     text-align: start;
   }
@@ -381,5 +394,28 @@ footer ul li a {
   }
   .section-projects {
     grid-template-columns: repeat(4, 1fr);
+  }
+  footer ul li a:hover {
+    color: var(--White);
+  }
+  .icon-social:hover path {
+    fill: var(--White);
+  }
+  .socials {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 17.5rem) {
+  .menu {
+    padding: 2.5rem 3rem;
+  }
+  .main-about h1 {
+    font-size: 2.2rem;
+  }
+  .details-container h2 {
+    font-size: 2rem;
+  }
+  footer ul {
+    gap: 1.5rem;
   }
 }

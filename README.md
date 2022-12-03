@@ -26,10 +26,13 @@ Users should be able to:
 ### Screenshot
 
 Mobile Version
+
 ![](./assets/images/readme/screenshot1.png.jpg)
+
 ![](./assets/images/readme/screenshot2.png.jpg)
 
 Desktop Version
+
 ![](./assets/images/readme/screenshot3.png.jpg)
 
 ### Links

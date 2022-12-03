@@ -27,13 +27,13 @@ Users should be able to:
 
 Mobile Version
 
-![](./assets/images/readme/screenshot1.png.jpg)
+![](./assets/images/readme/screenshot1.png)
 
-![](./assets/images/readme/screenshot2.png.jpg)
+![](./assets/images/readme/screenshot2.png)
 
 Desktop Version
 
-![](./assets/images/readme/screenshot3.png.jpg)
+![](./assets/images/readme/screenshot3.png)
 
 ### Links
 
